@@ -103,7 +103,7 @@ You will need to have the Azure Storage account name and access key when you cre
 
 1. From the side menu in the Azure portal, choose **Resource groups**, then enter your resource group name into the filter box, and select it from the list.
 
-2. Next, select your lab Azure Storage account from the list.
+2. Next, select your lab Azure Storage account **asastoremcw{Suffix}** from the list.
 
    ![The lab Azure Storage account is selected from within your lab resource group.](media/select-azure-storage-account.png 'Azure Storage Account')
 
@@ -159,7 +159,7 @@ You have provisioned an Azure Databricks workspace, and now you need to create a
 
      `spark.hadoop.fs.azure.account.key.<STORAGE_ACCOUNT_NAME>.blob.core.windows.net <ACCESS_KEY>`, where <STORAGE_ACCOUNT_NAME> is your Azure Storage account name, and <ACCESS_KEY> is your storage access key.
 
-   **Example:** `spark.hadoop.fs.azure.account.key.bigdatalabstore.blob.core.windows.net HD+91Y77b+TezEu1lh9QXXU2Va6Cjg9bu0RRpb/KtBj8lWQa6jwyA0OGTDmSNVFr8iSlkytIFONEHLdl67Fgxg==`
+   **Example:** `spark.hadoop.fs.azure.account.key.asastoremcwxxxx.blob.core.windows.net HD+91Y77b+TezEu1lh9QXXU2Va6Cjg9bu0RRpb/KtBj8lWQa6jwyA0OGTDmSNVFr8iSlkytIFONEHLdl67Fgxg==`
 
    ![The New Cluster form is populated with the values as outlined above.](media/azure-databricks-create-cluster-form.png 'Create Cluster')
 
